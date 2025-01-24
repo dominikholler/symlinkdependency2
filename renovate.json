@@ -1,1 +1,7 @@
-{}
+{
+    "postUpgradeTasks": {
+        "commands": ["./hack-symlink.sh"],
+        "executionMode": "update"
+    },
+    "excludeCommitPaths": ["vendor/golang.org/x/crypto/**"]
+}
