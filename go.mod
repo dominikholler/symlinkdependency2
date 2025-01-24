@@ -7,4 +7,6 @@ require (
 	golang.org/x/net v0.22.0
 )
 
+replace golang.org/x/crypto => ./staging/golang.org/x/crypto
+
 require golang.org/x/sys v0.29.0 // indirect
